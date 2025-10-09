@@ -60,7 +60,7 @@ export default function ContactMe() {
             ></textarea>
             <button
               type="submit"
-              className="w-full bg-purple-300 text-black font-semibold py-3 rounded-lg transition-transform hover:scale-105 hover:bg-gray-400 duration-500"
+              className="cursor-pointer w-full bg-purple-300 text-black font-semibold py-3 rounded-lg transition-transform hover:scale-105 hover:bg-gray-400 duration-500"
             >
               Send Message
             </button>

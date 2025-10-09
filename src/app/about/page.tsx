@@ -32,10 +32,12 @@ export default function About() {
             className="flex justify-center sm:mt-[30px]"
           >
             <div className="font-inter-tight text-[#F5F5F5] text-[20px] max-w-[800px] text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-              quis animi nulla quaerat voluptas necessitatibus officiis minus
-              consequatur facere molestias? Consequatur debitis possimus illo
-              quae velit, nulla aliquam eligendi magni.
+              Fresh graduate in Computer Science from Telkom University with a
+              strong passion for Fullstack Web Development and Data Science.
+              Skilled in React.js, Next.js, Node.js, and databases like MySQL
+              and MongoDB. Experienced in Python and machine learning frameworks
+              such as scikit-learn, with strong analytical and problem-solving
+              skills.
             </div>
           </motion.div>
 
@@ -46,7 +48,7 @@ export default function About() {
             viewport={{ once: false, amount: 0.3 }}
             className="flex justify-center sm:mt-[40px]"
           >
-            <div className="transition-transform hover:scale-110 duration-500 py-[20px] px-[20px] w-fit rounded-2xl bg-purple-300 shadow-2xl hover:bg-gray-400">
+            <div className="transition-transform hover:scale-110 duration-500 py-[15px] px-[20px] w-fit rounded-2xl bg-purple-300 shadow-2xl hover:bg-gray-400">
               <Link
                 href="https://www.linkedin.com/in/fadilrifaldy"
                 target="_blank"
@@ -76,10 +78,10 @@ export default function About() {
                 Core Skill:
               </div>
               <div className="text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                nemo ea laborum dolorum facere nulla repellendus aperiam odio
-                quas optio quasi, suscipit corrupti quae reiciendis vitae autem
-                magni! Molestiae, modi?
+                Proficient in Fullstack Web Development and Data Science,
+                experienced in building responsive applications with React.js,
+                Next.js, and Node.js, managing databases using MySQL and using
+                Python for data analysis and machine learning.
               </div>
             </motion.div>
 
@@ -94,10 +96,10 @@ export default function About() {
                 Key Values:
               </div>
               <div className="text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                nemo ea laborum dolorum facere nulla repellendus aperiam odio
-                quas optio quasi, suscipit corrupti quae reiciendis vitae autem
-                magni! Molestiae, modi?
+                I value leadership, teamwork, and effective communication,
+                supported by strong time management, critical thinking,
+                creativity, and problem-solving skills, which help me
+                collaborate efficiently and adapt to diverse challenges.
               </div>
             </motion.div>
 
@@ -106,16 +108,16 @@ export default function About() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
               viewport={{ once: false, amount: 0.3 }}
-              className="transition-transform hover:scale-110 duration-500 font-inter-tight text-[16px] pr-[100px] pl-[50px]"
+              className="transition-transform hover:scale-110 duration-500 font-inter-tight text-[16px] pr-[80px] pl-[50px]"
             >
               <div className="text-[18px] font-semibold text-purple-300">
                 Work Experience:
               </div>
               <div className="text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                nemo ea laborum dolorum facere nulla repellendus aperiam odio
-                quas optio quasi, suscipit corrupti quae reiciendis vitae autem
-                magni! Molestiae, modi?
+                Completed an internship at PT. Telkom Indonesia (Persero) Tbk,
+                within the Managed Service Operation Division in Bandung,
+                Indonesia (June 2023 – August 2023), as part of the CNOP
+                (Collaborative Network Optimization Project) Assurance team
               </div>
             </motion.div>
           </div>

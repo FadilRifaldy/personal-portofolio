@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Testimonials() {
   return (
@@ -30,16 +31,12 @@ export default function Testimonials() {
           <div className="bg-gradient-to-r from-white via-purple-300 to-purple-400 bg-clip-text text-transparent w-fit ">
             What they say after using our product
           </div>
-          <div className="flex items-center gap-3 mr-[100px] text-white text-[18px]">
+          <Link
+            href="/#testimonials"
+            className="flex items-center gap-3 mr-[100px] text-white text-[18px] hover:text-purple-500"
+          >
             View All
-            <Image
-              src="/images/Union.png"
-              alt="arrow"
-              width={15}
-              height={15}
-              className="w-[15px] h-[15px]"
-            />
-          </div>
+          </Link>
         </motion.div>
       </div>
 

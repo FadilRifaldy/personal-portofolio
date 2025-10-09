@@ -63,8 +63,9 @@ export default function Home() {
                 viewport={{ once: false, amount: 0.3 }}
                 className="font-inter-tight text-[18px] text-[#F5F5F5] max-w-[480px]"
               >
-                We empower individuals, families, and businesses with tailored
-                financial strategies that grow wealth.
+                Computer Science graduate from Telkom University with expertise
+                in Software Engineering, particularly Fullstack Web Development
+                and Data Science.
               </motion.p>
 
               <motion.div
